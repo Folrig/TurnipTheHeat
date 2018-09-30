@@ -2,21 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestTrig : MonoBehaviour {
+public class DestroyPlatform : MonoBehaviour {
 
-    GameManager man;
 	// Use this for initialization
 	void Start () {
-        man = FindObjectOfType<GameManager>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
 	}
-    void OnTriggerEnter(Collider other)
+
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+    private void OnTriggerEnter(Collider other)
     {
-        man.timegogo = true ;
-        print("sssssss");
+        Destroy(other.gameObject);
     }
 }
