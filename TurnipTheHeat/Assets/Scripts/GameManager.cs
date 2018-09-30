@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoSingleton<GameManager>
 {
-    public float Timego;
-
-    public float rate;
-
+    public float timer;
     public float speed;
+    public float rate;
 
     bool timegogo;
     protected override void Initiate()
@@ -21,7 +19,7 @@ public class GameManager : MonoSingleton<GameManager>
     {
         if (timegogo)
         {
-            Timego += Time.deltaTime;
+            timer += Time.deltaTime;
 
             
         }

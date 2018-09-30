@@ -13,7 +13,7 @@ public class TestTrig : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
         print("er");
     }

@@ -5,18 +5,18 @@ using UnityEngine;
 public class PlatformMove : MonoBehaviour {
 
 
-    GameManager man;
-	void Start () {
+    GameManager gameManager;
+	void Start ()
+    {
 
-        man = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
 
-        man.speed = (man.Timego * man.rate) + 1.0f;
-
+        gameManager.speed = (gameManager.timer * gameManager.rate) + 1.0f;
     }
 
     // Update is called once per frame
     void Update ()
     {
-        gameObject.transform.Translate(Vector3.down * man.speed * Time.deltaTime);
+        gameObject.transform.Translate(Vector3.down * gameManager.speed * Time.deltaTime);
 	}
 }
