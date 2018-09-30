@@ -10,8 +10,13 @@ public class PlatformMove : MonoBehaviour {
     {
 
         gameManager = FindObjectOfType<GameManager>();
+        if (gameManager.timegogo == false)
+        {
+            gameManager.speed = 0;
+        }
+        else
+            gameManager.speed = (gameManager.timer * gameManager.rate) + 1.0f;
 
-        gameManager.speed = (gameManager.timer * gameManager.rate) + 1.0f;
     }
 
     // Update is called once per frame

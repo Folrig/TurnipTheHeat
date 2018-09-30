@@ -8,11 +8,11 @@ public class GameManager : MonoSingleton<GameManager>
     public float speed;
     public float rate;
 
-    bool timegogo;
+   public bool timegogo;
     protected override void Initiate()
     {
-        timegogo = true;
-       
+        
+        timegogo = false;
 
     }
     private void Update()
