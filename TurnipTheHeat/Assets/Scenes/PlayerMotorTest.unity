@@ -306,119 +306,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!1 &242519209
-=======
 --- !u!1 &256798385
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  - component: {fileID: 242519214}
-  - component: {fileID: 242519213}
-  - component: {fileID: 242519212}
-  - component: {fileID: 242519211}
-  - component: {fileID: 242519210}
-  m_Layer: 0
-  m_Name: PlatformSpawner
-=======
   - component: {fileID: 256798386}
   m_Layer: 9
   m_Name: Ground Line (1)
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!114 &242519210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242519209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fdbeff5a37a9864db7e067c76b34060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1450522470865194, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
---- !u!135 &242519211
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242519209}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &242519212
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242519209}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &242519213
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242519209}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &242519214
-=======
 --- !u!4 &256798386
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  m_GameObject: {fileID: 242519209}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.52, y: 7.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-=======
   m_GameObject: {fileID: 256798385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
@@ -426,7 +333,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 153875200}
   m_RootOrder: 0
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &534669902
 GameObject:
@@ -499,88 +405,27 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-=======
   m_LocalPosition: {x: 0, y: 0, z: -10}
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!1001 &793422512
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -7.0800004
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 5.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4248142449450236, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
-  m_IsPrefabAsset: 0
---- !u!1 &1685981376
-=======
 --- !u!1 &801467647
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  - component: {fileID: 1685981377}
-  - component: {fileID: 1685981379}
-  - component: {fileID: 1685981378}
-  m_Layer: 0
-  m_Name: GameObject
-=======
   - component: {fileID: 801467648}
   m_Layer: 9
   m_Name: Ground Line (4)
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!4 &1685981377
-=======
 --- !u!4 &801467648
 Transform:
   m_ObjectHideFlags: 0
@@ -610,100 +455,54 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1254073722
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  m_GameObject: {fileID: 1685981376}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.353, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 1254073721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 153875200}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!114 &1685981378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1685981376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fdbeff5a37a9864db7e067c76b34060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
---- !u!64 &1685981379
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1685981376}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
---- !u!1 &1699651799
-=======
 --- !u!1 &1482512164
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
-  - component: {fileID: 1699651803}
-  - component: {fileID: 1699651802}
-  - component: {fileID: 1699651801}
-  - component: {fileID: 1699651800}
-  m_Layer: 0
-  m_Name: Cube (1)
-=======
   - component: {fileID: 1482512168}
   - component: {fileID: 1482512167}
   - component: {fileID: 1482512166}
   - component: {fileID: 1482512165}
   m_Layer: 10
   m_Name: Ground
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1699651800
+--- !u!65 &1482512165
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699651799}
+  m_GameObject: {fileID: 1482512164}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1699651801
+--- !u!23 &1482512166
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699651799}
+  m_GameObject: {fileID: 1482512164}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -733,45 +532,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &1699651802
+--- !u!33 &1482512167
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699651799}
+  m_GameObject: {fileID: 1482512164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1699651803
+--- !u!4 &1482512168
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699651799}
+  m_GameObject: {fileID: 1482512164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1, y: 1.41, z: 0}
-  m_LocalScale: {x: 4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
+  m_LocalScale: {x: 15, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream:TurnipTheHeat/Assets/Scenes/Falling.unity
---- !u!1 &1802510878 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1450522470865194, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd,
-    type: 2}
-  m_PrefabInternal: {fileID: 793422512}
---- !u!114 &1802510879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802510878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15df4b582d5d3544ca0587746d56a132, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-=======
 --- !u!1 &1729114762
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,4 +580,3 @@ Transform:
   m_Father: {fileID: 153875200}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes:TurnipTheHeat/Assets/Scenes/SampleScene.unity
