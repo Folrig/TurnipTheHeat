@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformMove : MonoBehaviour {
-    public float speed = 1.0f;
-	// Use this for initialization
+
+
+    GameManager man;
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
+
+        man = FindObjectOfType<GameManager>();
+
+        man.speed = (man.Timego * man.rate) + 1.0f;
+
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
-        gameObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
+        gameObject.transform.Translate(Vector3.down * man.speed * Time.deltaTime);
 	}
 }

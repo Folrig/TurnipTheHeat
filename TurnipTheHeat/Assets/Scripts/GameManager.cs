@@ -8,11 +8,14 @@ public class GameManager : MonoSingleton<GameManager>
 
     public float rate;
 
+    public float speed;
+
     bool timegogo;
     protected override void Initiate()
     {
         timegogo = true;
        
+
     }
     private void Update()
     {
@@ -22,8 +25,8 @@ public class GameManager : MonoSingleton<GameManager>
 
             
         }
-   
 
+        Mathf.Clamp(speed, 0, 10);
     }
 
 }	
