@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class TestTrig : MonoBehaviour {
 
+    GameManager man;
 	// Use this for initialization
 	void Start () {
-		
+        man = FindObjectOfType<GameManager>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        print("er");
+        man.timegogo = true ;
     }
 }
