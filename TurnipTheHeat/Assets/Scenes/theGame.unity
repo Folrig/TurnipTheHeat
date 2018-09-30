@@ -367,7 +367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Timego: 0
-  rate: 0.1
+  rate: 0.05
+  speed: 0
 --- !u!4 &1921363877
 Transform:
   m_ObjectHideFlags: 0

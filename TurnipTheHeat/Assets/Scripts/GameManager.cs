@@ -11,6 +11,10 @@ public class GameManager : MonoSingleton<GameManager>
     public float speed;
 
     bool timegogo;
+
+    public float projspeed;
+
+    public float porjtime;
     protected override void Initiate()
     {
         timegogo = true;
