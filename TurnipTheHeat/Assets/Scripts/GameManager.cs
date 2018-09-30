@@ -6,6 +6,8 @@ public class GameManager : MonoSingleton<GameManager>
 {
     public float Timego;
 
+    public float rate;
+
     bool timegogo;
     protected override void Initiate()
     {
