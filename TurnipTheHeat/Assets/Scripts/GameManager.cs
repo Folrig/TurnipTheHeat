@@ -22,7 +22,7 @@ public class GameManager : MonoSingleton<GameManager>
 
             
         }
-        Mathf.Round(Timego);
+   
 
     }
 
