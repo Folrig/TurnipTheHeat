@@ -7,6 +7,17 @@ public class GameOver : MonoBehaviour {
     [SerializeField] string _bootScene = "Boot";
     [SerializeField] string _creditsScene = "Credits";
 
+    private void Start()
+    {
+        GameManager.Instance.UnloadSingleton(true,true);
+    }
+
+    void Update() {
+        if (Input.GetButtonDown("Jump")) {
+            ReturnToStart();
+        }
+    }
+
     public void ReturnToStart() {
         SceneManager.LoadScene(_bootScene);
     }
