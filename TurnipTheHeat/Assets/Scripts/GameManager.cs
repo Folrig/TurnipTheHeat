@@ -6,29 +6,41 @@ public class GameManager : MonoSingleton<GameManager>
 {
     public float timer;
     public float speed;
-    public float rate;
+    public float waveOneTime = 15.0f;
+    public float waveTwoTime = 30.0f;
+    public float waveThreeTime = 45.0f;
+    public float waveFourTime = 60.0f;
+    public bool isLevelTwo = false;
+    public bool isLevelThree = false;
+    public bool isLevelFour = false;
 
-
-    public float projspeed;
-
-    public float porjtime;
-   public bool timegogo;
     protected override void Initiate()
     {
-        
-        timegogo = false;
-
+        speed = 2.0f;
     }
+
     private void Update()
     {
-        if (timegogo)
-        {
-            timer += Time.deltaTime;
+        timer += Time.deltaTime;
 
-            
+        if (timer >= waveOneTime && isLevelTwo == false)
+        {   
+            speed = 2.25f;
+            isLevelTwo = true;
         }
-
-        Mathf.Clamp(speed, 0, 10);
+        if (timer >= waveTwoTime && isLevelThree == false)
+        {
+            speed = 3.25f;
+            isLevelThree = true;
+        }
+        if (timer >= waveThreeTime && isLevelFour == false)
+        {
+            speed = 4.25f;
+            isLevelFour = true;
+        }
+        if (timer >= waveFourTime)
+        {
+            speed = 5.0f;
+        }
     }
-
 }	

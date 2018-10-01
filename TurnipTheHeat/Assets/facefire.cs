@@ -15,7 +15,7 @@ public class facefire : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         man = FindObjectOfType<GameManager>();
-        countdown = man.porjtime;
+        //countdown = man.porjtime;
 
         cannon = GetComponentInChildren<Transform>();
     }
@@ -28,8 +28,8 @@ public class facefire : MonoBehaviour {
         {
             Rigidbody inst;
             inst = Instantiate(proj, cannon.position, cannon.rotation) as Rigidbody;
-            inst.AddForce(cannon.forward * man.projspeed);
-            countdown = man.porjtime;
+            //inst.AddForce(cannon.forward * man.projspeed);
+            //countdown = man.porjtime;
             
         }
 	}

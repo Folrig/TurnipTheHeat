@@ -17,7 +17,7 @@ public class projectilego : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        rig.AddForce(transform.forward * man.projspeed);
+        //rig.AddForce(transform.forward * man.projspeed);
 
     }
 }
