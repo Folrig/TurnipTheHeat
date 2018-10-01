@@ -62,17 +62,19 @@ public class PlayerMotor : MonoBehaviour
             _lastJumpTime = _timer;
             if (_lastDirection == 1.0f)
             {
+                _rigidbody.velocity = Vector3.zero;
                 _direction.x = -_wallJumpSpeed;
                 _direction.y = _jumpSpeed;
             }
             else if (_lastDirection == -1.0f)
             {
+                _rigidbody.velocity = Vector3.zero;
                 _direction.x = _wallJumpSpeed;
                 _direction.y = _jumpSpeed;
             }
         }
 
-        _rigidbody.velocity = _direction;   
+        _rigidbody.velocity = _direction;
     }
 
     private void LateUpdate()
