@@ -17,7 +17,16 @@ public class projectilego : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //rig.AddForce(transform.forward * man.projspeed);
 
+        
+    }
+
+  
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "Left Wall" || other.gameObject.name == "Right Wall" || other.gameObject.name == "Ground")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4917959591468158}
   m_Layer: 0
-  m_Name: Cannon
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 33950337262793100}
   - component: {fileID: 23801336575555798}
   - component: {fileID: 65896230431854700}
-  - component: {fileID: 114463466889585532}
+  - component: {fileID: 114571770842593454}
   m_Layer: 0
   m_Name: Cannon
   m_TagString: Untagged
@@ -52,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1606224811652110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 4.9111614, z: -0.08154297}
+  m_LocalPosition: {x: 6.48, y: 4.9263725, z: 0.05727768}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4917959591468158}
@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1306826885531796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.205, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4698005547700388}
@@ -126,7 +126,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114463466889585532
+--- !u!114 &114571770842593454
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,8 +134,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606224811652110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ade27063b8fc314eb710d3d3e72b55e, type: 3}
+  m_Script: {fileID: 11500000, guid: d8aaef4c312d0ea4b9babadf43d934d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dir: {fileID: 0}
-  proj: {fileID: 54001807583037936, guid: 6ad6b91409540b54a968f791e8c70059, type: 2}
+  proj: {fileID: 54001807583037936, guid: 240b4567cad39184db25e43d5d9d8093, type: 2}

@@ -14,17 +14,32 @@ public class GameManager : MonoSingleton<GameManager>
     public bool isLevelThree = false;
     public bool isLevelFour = false;
 
+    public float projectile_Spawntime;
+    public float Projectile_countdown;
+    public float projectile_Speed;
+
+    public facefire Left;
+    public facefire Right;
+   enum LR { left, Right };
+    LR turret_rotation;
+
     protected override void Initiate()
     {
+
         speed = 2.0f;
+        Projectile_countdown = projectile_Spawntime;
     }
+
+
 
     private void Update()
     {
         timer += Time.deltaTime;
+        Projectile_countdown -= Time.deltaTime;
+
 
         if (timer >= waveOneTime && isLevelTwo == false)
-        {   
+        {
             speed = 2.25f;
             isLevelTwo = true;
         }
@@ -42,5 +57,31 @@ public class GameManager : MonoSingleton<GameManager>
         {
             speed = 5.0f;
         }
+
+
+        if (Projectile_countdown < 1)
+        {
+            turretswitch();
+            Projectile_countdown = projectile_Spawntime;
+
+
+        }
+
+
     }
-}	
+    public void turretswitch()
+    {
+        switch (turret_rotation)
+        {
+            case LR.left:
+                turret_rotation = LR.Right;
+                Right.Fire();
+                break;
+            case LR.Right:
+                turret_rotation = LR.left;
+                Left.Fire();
+                break;
+
+        }
+    }
+}

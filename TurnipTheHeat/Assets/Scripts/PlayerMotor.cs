@@ -15,15 +15,19 @@ public class PlayerMotor : MonoBehaviour
     [SerializeField] private float _speed = 500.0f;
     [SerializeField] private float _jumpSpeed = 12.0f;
     [SerializeField] private float _wallJumpSpeed = 300.0f;
+    [SerializeField] private float _Stuntime = 10f;
+
     [SerializeField] private Transform[] _groundLines;
     [SerializeField] private LayerMask _ground;
     [SerializeField] private LayerMask _wall;
+    [SerializeField] private bool _canmove;
     #endregion
 
     #region Methods
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _canmove = true;
 	}
 	
     void FixedUpdate()
@@ -40,8 +44,12 @@ public class PlayerMotor : MonoBehaviour
             canWallJump = false;
         }
 
-        _horizontal = _horizontal * _speed * Time.fixedDeltaTime;
-        _direction = new Vector3(_horizontal, _rigidbody.velocity.y, 0.0f);
+        if (_canmove)
+        {
+            _horizontal = _horizontal * _speed * Time.fixedDeltaTime;
+            _direction = new Vector3(_horizontal, _rigidbody.velocity.y, 0.0f);
+        }
+       
 
         if (_horizontal > 0)
         {
@@ -52,7 +60,7 @@ public class PlayerMotor : MonoBehaviour
             _lastDirection = -1.0f;
         }
 
-        if (jump && isTouchingGround)
+        if (jump && isTouchingGround && _canmove)
         {
             _direction.y = _jumpSpeed;
         }
@@ -75,6 +83,18 @@ public class PlayerMotor : MonoBehaviour
         }
 
         _rigidbody.velocity = _direction;
+
+        if (!_canmove)
+        {
+            _Stuntime -= Time.deltaTime;
+
+
+        }
+        if (_Stuntime < 1)
+        {
+            _canmove = true;
+            _Stuntime = 10;
+        }
     }
 
     private void LateUpdate()
@@ -125,6 +145,11 @@ public class PlayerMotor : MonoBehaviour
             }
         }
         return false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        _canmove = false;
     }
     #endregion
 }

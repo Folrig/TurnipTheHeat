@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23613302844779734}
   - component: {fileID: 135357899257738478}
   - component: {fileID: 54001807583037936}
+  - component: {fileID: 114432711839428276}
   m_Layer: 0
   m_Name: project
-  m_TagString: Untagged
+  m_TagString: Sut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1152439483298732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.246733, y: -1.4643338, z: -0.25900915}
+  m_LocalPosition: {x: -0.2844484, y: -0.7603421, z: 10.122902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,6 +101,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114432711839428276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152439483298732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc7ccf1d4989304687c568028d9e771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135357899257738478
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -107,7 +119,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1152439483298732}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
