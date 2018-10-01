@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1141521193149986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9105215, y: 1.0066409, z: 0}
+  m_LocalPosition: {x: 0, y: 7.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -48,7 +48,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1141521193149986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -95,4 +95,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fdbeff5a37a9864db7e067c76b34060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1450522470865194, guid: 76a0a797f81cf4d48b6d4f11d7eae1dd, type: 2}
+  prefab: {fileID: 1857569331504610, guid: fcd57e64b77548a4d9c25b2bc9480191, type: 2}
+  MinX: 1
+  Easy: 6
+  Medium: 4
+  Hard: 2
+  MaxX: 8
+  counter: 0
+  minSpawnTime: 1.25
+  maxSpawnTime: 1.35
